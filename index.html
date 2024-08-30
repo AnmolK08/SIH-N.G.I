@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Alumni Connect</title>
+  </head>
+  <body>
+    <div id="loader">
+      <h3>Alumni</h3>
+      <h3>Association.™</h3>
+  </div>
+
+  <div class="menu-logo">
+    <i class="ri-menu-line"></i>
+  </div>
+    
+
+    <div id="main">
+
+      <div class="login-page">
+        <div class="container" id="container">
+          <div class="form-container sign-up">
+            <form>
+              <h1>Create Account</h1>
+              <div class="social-icons">
+                <a href="#" class="icon"
+                  ><i class="ri-google-fill"></i></a>
+                <a href="#" class="icon"
+                  ><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="icon"><i class="ri-github-fill"></i></a>
+                <a href="#" class="icon"
+                  ><i class="ri-linkedin-fill"></i></a>
+              </div>
+              <span>or use your email for registeration</span>
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button>Sign Up</button>
+              
+            </form>
+          </div>
+          <div class="form-container sign-in">
+            <form>
+              <h1>Sign In</h1>
+              <div class="social-icons">
+                <a href="#" class="icon"
+                  ><i class="ri-google-fill"></i></a>
+                <a href="#" class="icon"
+                  ><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="icon"><i class="ri-github-fill"></i></a>
+                <a href="#" class="icon"
+                  ><i class="ri-linkedin-fill"></i></a>
+              </div>
+              <span>or use your email password</span>
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <a href="#">Forget Your Password?</a>
+              <button>Sign In</button>
+
+            </form>
+          </div>
+          <div class="toggle-container">
+            <div class="toggle">
+              <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to use all of site features</p>
+                <button class="hidden" id="login">Sign In</button>
+                <button class="closed">close</button>
+              </div>
+              <div class="toggle-panel toggle-right">
+                <h1>Hello, Friend!</h1>
+                <p>
+                  Register with your personal details to use all of site features
+                </p>
+                <button class="hidden" id="register">Sign Up</button>
+                <button class="closed">close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="page1">
+        <nav>
+          <div id="nav-1"><img src="Designer.png" alt=""></div>
+          <div id="nav-2">
+            <a href="#">Communities</a>
+            <a href="#">Donate</a>
+            <a href="#">Events</a>
+            <a href="#">Feedback</a>
+            <a href="#">About</a>
+            <i class="ri-close-fill"></i>
+          </div>
+          <div class="nav-3">
+            <i class="ri-notification-2-line"></i>
+            <h3>
+              <a href="#">Login</a>
+            </h3>
+          </div>
+        </nav>
+
+        <div id="page1-b">
+          <h1>Welcome to the Alumni <br />Association</h1>
+          <h3>
+            Stay connected with your alma mater and fellow alumni. Explore
+            <br />
+            opportunities for networking, mentorship, and giving back.
+          </h3>
+          <div id="button">
+            <button id="button1">Join Now</button>
+            <button id="button2">Donate</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="page2">
+        <h1>Explore the Alumni Directory</h1>
+        <p id="page2-p">
+          Connect with classmates, mentors, and <br />potential business
+          partners in our searchable alumni directory.
+        </p>
+
+        <form>
+          <input type="text" placeholder="Search alumni..." />
+          <button type="submit">Search</button>
+        </form>
+
+        <div id="card-wrapper">
+          <div id="card1" class="cards">
+            <div class="cards-a">
+              <i class="ri-shield-user-line"></i>
+              <div>
+                <p>John Doe</p>
+                <p>Class of 2015, Computer Science</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>Connect</button>
+              <button>View Profile</button>
+            </div>
+          </div>
+
+          <div id="card2" class="cards">
+            <div class="cards-a">
+              <i class="ri-shield-user-line"></i>
+              <div>
+                <p>John Doe</p>
+                <p>Class of 2015, Computer Science</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>Connect</button>
+              <button>View Profile</button>
+            </div>
+          </div>
+
+          <div id="card3" class="cards">
+            <div class="cards-a">
+              <i class="ri-shield-user-line"></i>
+              <div>
+                <p>John Doe</p>
+                <p>Class of 2015, Computer Science</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>Connect</button>
+              <button>View Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="page3">
+        <h1>Upcoming <br> Alumni Events</h1>
+        <p id="page3-p">
+          Stay connected with your alma mater and fellow <br />
+          alumni through our upcoming events and reunions.
+        </p>
+        <div id="card-wrapper">
+          <div class="cards">
+            <div class="cards-a">
+              <i class="ri-calendar-fill"></i>
+              <div>
+                <p>Alumni Reunion</p>
+                <p>June 15, 2023 | 6:00 PM</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>RSVP</button>
+              <button>Learn More</button>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="cards-a">
+              <i class="ri-calendar-fill"></i>
+              <div>
+                <p>Alumni Reunion</p>
+                <p>June 15, 2023 | 6:00 PM</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>RSVP</button>
+              <button>Learn More</button>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="cards-a">
+              <i class="ri-calendar-fill"></i>
+              <div>
+                <p>Alumni Reunion</p>
+                <p>June 15, 2023 | 6:00 PM</p>
+              </div>
+            </div>
+            <div class="cards-b">
+              <button>RSVP</button>
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="page4">
+        <h1>Support <br> Your <br>Alma Mater</h1>
+        <p>
+          Make a lasting impact by contributing to scholarships, <br />research,
+          and other initiatives through our secure donation portal.
+        </p>
+
+        <div class="page4-b">
+          <input type="number" placeholder="Enter donation amount" />
+          <div>
+            <label htmlFor="payment-method">Payment Method</label>
+            <br />
+            <select id="payment-method" >
+              <option value="choose your preffered method">Choose your preffered method</option>
+              <option value="credit-card">Credit Card</option>
+              <option value="paypal">PayPal</option>
+              <option value="bank-transfer">Bank Transfer</option>
+            </select>
+          </div>
+          <button type="submit" className="w-full">Donate Now</button>
+        </div>
+      </div>
+
+      <footer>
+        <div class="f1">
+          <div class="fdiv">
+            <h3>About</h3>
+            <a href="#">Our Mission</a>
+            <a href="#">Leadership</a>
+            <a href="#">History</a>
+          </div>
+          <div class="fdiv">
+            <h3>Alumni</h3>
+            <a href="#"> Directory</a>
+            <a href="#">Events</a>
+            <a href="#">Mentorship</a>
+          </div>
+          <div class="fdiv">
+            <h3>Support</h3>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="f2">
+          <p className="text-xs text-muted-foreground">
+            &copy; 2024 Alumni Association. All rights reserved.
+          </p>
+          <nav><a href="#"> Privacy</a><a href="#">Terms of Service</a></nav>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
